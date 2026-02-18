@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #111;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* LEFT SIDE IMAGE */
+
+.left {
+  flex: 1.2;
+  background: url("./img/LoginBg.png") center/cover no-repeat;
+}
+
+/* RIGHT SIDE */
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #2b2e63, #20244a);
+  color: white;
+}
+
+/* LOGIN CARD */
+
+.card {
+  width: 360px;
+}
+
+.logo {
+  font-weight: 600;
+  color: #ff8fb1;
+  margin-bottom: 5px;
+}
+
+.logo-login {
+  height: 90%;
+  width: 90%;
+}
+
+.subtitle {
+  font-size: 13px;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 6px;
+}
+
+.login-text {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+/* INPUT */
+
+.input {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.input span {
+  margin-right: 10px;
+}
+
+.input input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: white;
+  outline: none;
+  font-size: 15px;
+}
+
+.input button {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FORGOT */
+
+.forgot {
+  text-align: right;
+  font-size: 13px;
+  color: #ff8fb1;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+/* LOGIN BUTTON */
+
+.login {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff5f8f, #ff7aa2);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+/* OR */
+
+.or {
+  text-align: center;
+  margin: 15px 0;
+  opacity: 0.6;
+}
+
+/* SOCIAL */
+
+.google,
+.facebook {
+  width: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.google {
+  background: white;
+  color: #333;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* CREATE */
+
+.create {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.create span {
+  color: #ff8fb1;
+  cursor: pointer;
+}
